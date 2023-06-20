@@ -1,0 +1,38 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: 'Star Wars: Epizoda IV New Hope'
+    slug: none
+    image_url: null
+    year: 1977
+    avg_rating: null
+    description: 'Star Wars (retroactively titled Star Wars: Episode IV A New Hope)
+      is a 1977 American epic space opera film written and directed by George Lucas,
+      produced by Lucasfilm and distributed by 20th Century Fox. It is the first film
+      in the Star Wars film series and fourth chronological chapter of the "Skywalker
+      Saga". Set "a long time ago" in a fictional universe where the galaxy is ruled
+      by the tyrannical Galactic Empire, the story focuses on a group of freedom fighters
+      known as the Rebel Alliance, who aim to destroy the Empire''s newest weapon,
+      the Death Star'
+    director: 1
+    actors: null
+    genres:
+    - 1
+- model: films.director
+  pk: 1
+  fields:
+    name: George Lucas
+    slug: none
+    birth_year: 1944
+- model: films.actor
+  pk: 1
+  fields:
+    name: Jonny Depp
+    birth_year: 1963
+    slug: none
+    photo_url: null
+    description: ''
+- model: films.genre
+  pk: 1
+  fields:
+    name: Sci-Fi
